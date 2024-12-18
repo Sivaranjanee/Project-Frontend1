@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="box">
+            <img src="aero.png" alt="pic" width="100"></div>
+            <div class="one">
+                <a href="#">GIFT CARDS</a>
+                <a href="#">SEARCH</a>
+                <a href="#">SUPPORT</a>
+                <a href="#">SIGN IN</a></p>
+           </div>
+           <div class="two">
+            <a href="#">BOOK MANAGE</a>
+            <a href="#">WHERE WE FLY</a>
+            <a href="#">PREPARE TO TRAVEL</a>
+            <a href="#">AIR INDIA EXPERIENCE</a>
+            <a href="#">LOYALITY</a>
+        </nav>
+        <div class="base">
+            <a class="ones"href="#">SEARCH FLIGHT</a>
+            <a class="twos"href="#">MANAGE BOOKING</a>
+            <a class="three"href="#">CHECK IN</a>
+            <a class="four"href="#">FLIGHT STATUS</a></div>
+            <img src="airline3.jpg" alt="pic" width="100%">
+            <div class="index">
+                <h1>Enjoy 10%* Discount on Domestic Flights</h1>
+                <p>Valid on Hdfc credit and debit cards<br>Use promocode "HDFC10"<br>*T&C Apply</p>
+                <button>Know more</button></div>
+            <nav class="navbar">
+                <div class="hello">
+                    <h3>A CLASS APART. ITS THE NEW STANDARD.</h3>
+                    <p>Discover our world of exclusive offers and services that change the way you travel.</p>
+                </div>
+            </nav>
+            <div class="inone">
+                <div class="wel">
+                    <img src="jrney.jpg" alt="pic" width="172%">
+                </div>
+                <div class="vertical">
+                    <img src="jrny.jpg" alt="pic" width="180%">
+                </div>
+                <div class="win">
+                    <img src="eiffel towe.jpg" alt="pic" width="137%">
+                </div>
+                <div class="get">
+                    <img src="sml.jpg" alt="pic" width="138%">
+                </div>
+                <div class="yet">
+                    <img src="talk.jpg" alt="pic" width="113%">
+                </div></div>
+                <div class="king">
+                    <h5>POPULAR: MUMBAI TO NYC</h5>
+                    <P>EXPERIENCE NEWYORK, NONSTOP TRAVEL TIME: 15 HOURS, 15 MINUTES</P>
+                    <button>View Route Details</button>
+                </div>
+                <div class="column">
+                    <h5>LOYALITY PROGRAMME</h5>
+                    <p>ONE STOP FOR ALL REWARDS. JOIN Flying Returns Today!</p>
+                    <button>Find Out More</button>
+                </div>
+                <div class="rows">
+                    <h5>STAR ALLIANCE</h5>
+                    <p>WHEREVER YOU VENTURE THIS SEASON, WE'LL GET YOU THERE SEAMLESSLY.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="gang">
+                    <h5>AI ESTORE</h5>
+                    <p>COMPLETE YOUR TRAVEL PACK WITH INSURANCE, HOTLES, E-VISA, AND MORE</p>
+                    <button>Coming Soon</button>
+                </div>
+                <div class="value">
+                    <h5>TALK TO US</h5>
+                    <p>HAVE A QUESTION ABOUT TRAVELLING WITH AIR INDIA? ASK CUSTOMER SERVICE-ANYTIME, 24/7</p>
+                    <button>Contact Us</button>
+                </div>
+                <div class="wat">
+                    <h1>Prepare to travel</h1>
+                    <p>Helpful hints for everything from packing to paper work, so you are fully prepared</p>
+                </div>
+                <div class="warn">
+                    <div class="leak">
+                        <figure>
+                            <img src="trav.jpg" alt="Pic" width="30%">
+                            <figcaption><h4>BAGGAGE ESSENTIALS</h4>
+                            <p>Travel Light on worries and heavy on information. Baggage rules decoded.</p></figcaption>
+                        </figure></div>
+                        <div class="race">
+                            <img src="trav1.jpg" alt="pic" width="30%">
+                            <figcaption><h4>AIRPORT ADVENTURES</h4>
+                            <p>Turn Layovers into mini vacations insights on terminals, lounges, amenities and more.</p></figcaption>
+                        </div>
+                        <div class="count">
+                            <img src="trav2.jpg" alt="pic" width="30%">
+                            <figcaption><h4>BEFORE YOU FLY</h4>
+                            <p>From visa essentials to medical assistance, everything you need to know.</p></figcaption>
+                        </div></div>
+                        <div class="Container">
+                            <div class="path"></div>
+                            </div>
+                        <div class="bikes">
+                            <li><img src="airline.jpg" alt="" onclick="big('airline.jpg');path('lightgray');bg('purple');changeText('Chennai to Singapore, departure at 8am')"></li>
+                            <li><img src="airline2.avif" alt="" onclick="big('airline2.avif');path('lightgreen');bg('darkgray');changeText('chennai to Kulalambur, departure at 10am')"></li>
+                            <li><img src="airline3.jpg" alt="" onclick="big('airline3.jpg');path('yellow');bg('orange');changeText('chennai to noida, departure at 11am')"></li>
+                    </div>
+                    <div class="big-img">
+                        <img src="airline.jpg" alt="" class="big">
+                    </div>
+                        <div class="contant">
+                            <p>&#x1f525;Let's Analyze&#x1f525;</p><br>
+                            <h1>Amazing Airline<br>&nbsp; Unforgettable Journey</h1><br><br>
+                            <h5 id="displayText">For Journey lover & Airline Rides</h5>
+                        </div>
+                        <script>
+                            function big(img){
+                                document.querySelector(".big").src = img;
+                                    }
+                            function path(color)
+                            {
+                                const path=document.querySelector(".path");
+                                path.style.background=color;
+                    }
+                    function bg(background)
+                    {
+                        const bg=document.querySelector(".Container");
+                        bg.style.background=background;
+                    }
+                    function changeText(newText)
+                    {
+                        document.querySelector('#displayText').textContent=newText;
+                    }
+                    </script>
+                    <div class="ring">
+                        <img src="tjma.jpg" alt="pic" width="50%">
+                    </div>
+                    <div class="range">
+                        <img src="Dubaa.jpg" alt="pic" width="380%">
+                    </div>
+                    <div class="cal">
+                        <h4>BOOK NONSTOP<br> DIRECT FLIGHTS</h4>
+                        <p>Its time to leave layovers behind. Our nonstop routes will whisk you from India to the heart of Asia, Australia, Europe, the Middle East, North America, and Beyond.</p>
+                        <button class="btn btn-success">Explore Results</button>
+                        <div class="tree">
+                        <div class="car">
+                            <h2>LONDON</h2>
+                            <button>Book now</button>
+                        </div>
+                        <div class="back">
+                            <div class="alpha">
+                                <h5>ABOUT US</h5>
+                                <p class="single"><a href="#">About Air India</a></p>
+                                <p class="feather"><a href="#">Corporate Information</a></p>
+                                <p class="sauce"><a href="#">Press</a></p>
+                                <p class="fave"><a href="#">Tenders</a></p>
+                                <p class="sign"><a href="#">Careers</a></p>
+                            </div>
+                            <div class="beta">
+                                <h5>BOOK & MANAGE</h5>
+                                <p class="sevn"><a href="#">Search Flights</a></p>
+                                <p class="eaght"><a href="#">Manage Booking</a></p>
+                                <p class="narro"><a href="#">Flight Schedule</a></p>
+                                <p class="tan"><a href="#">cargo</a></p>
+                            </div>
+                            <div class="trend">
+                                <h5>WHERE WE FLY</h5>
+                            <p class="zero"><a href="#">Route map</a></p>
+                            <p class="fix"><a href="#">Nonstop Flights</a></p>
+                            <p class="pro"><a href="#">Popular Flights</a></p>
+                            <p class="able"><a href="#">Partner Airlines</a></p>
+                        </div>
+                        <div class="alert w-25 alert-dark alert-dismissible">
+                            <p><strong>Warning</strong>  Passengers Must Come To Airport Earlier (Threes hours before)</p>
+                            <button class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                        <div class="highe">
+                            <h5>PREPARE TO TRAVEL</h5>
+                            <p class="cab"><a href="#">Baggage Guidelines</a></p>
+                            <p class="fan"><a href="#">Airport Information</a></p>
+                            <p class="gan"><a href="#">First time travellers, children and pets</a></p>
+                            <p class="can"><a href="#">Visas, Documents and Travel tips</a></p>
+                            <p class="wan"><a href="#">Health and medical assistance</a></p>
+                        </div>
+                        <div class="slangs">
+                            <h5>AIR INDIA EXPERIENCE</h5>
+                            <p class="game"><a href="#">At the Airport</a></p>
+                            <p class="ink"><a href="#">In the air</a></p>
+                            <p class="nestle"><a href="#">Transforming Experiences</a></p>
+                            <p class="were"><a href="#">Our Fleet</a></p>
+                        </div>
+                        <div class="kite">
+                            <h5>LOYALTY</h5>
+                            <p class="kind"><a href="#">About Flying Returns</a></p>
+                            <p class="kilo"><a href="#">Points calculator</a></p>
+                            <p class="gpt"><a href="#">Earn Points</a></p>
+                            <p class="disc"><a href="#">Spend Points</a></p>
+                            <p class="cd"><a href="#">Flying Returns FAQ</a></p>
+                        </div>
+                    
+                        <div class="tags">
+                            <h5>SUPPORT</h5>
+                            <p class="too"><a href="#">Contact</a></p>
+                            <p class="jungle"><a href="#">Frequently Asked Questions</a></p>
+                            <p class="gether"><a href="#">Grievance Solution</a></p>
+                        </div>
+                        <div class="bless">
+                            <h5>AIR INDIA APP</h5>
+                            <p>Download the app to book and manage your flights on the go.<a href="#">Learn more</a></p>
+                        </div>
+                        <div class="gentle">
+                            <button><i class="fa-brands fa-apple"></i><a href="#">Download on the App Store</a></button></p>
+                        </div>
+                        <div class="gst">
+                            <button><i class="fa-brands fa-google-play"></i><a href="#">Get it on Google Play</a></button>
+                        </div><br><br><hr>
+                        <div class="annual">
+                            <p class="vite"><a href="#">Site map</a></p>
+                            <p class="liquid"><a href="#">Terms & conditions</a></p>
+                            <p class="unity"><a href="#">Privacy Policy</a></p>
+                            <p class="right"><a href="#">Accessibility plan and Feedback process</a></p>
+                        </div>
+                        <div class="team">
+                            <p class="locate"><a href="#">Cookie policy</a></p>
+                            <p class="lease"><a href="#">Cookie settings</a></p>
+                            <p class="either"><a href="#">Conditions of carriage</a></p>
+                            <p class="see"><a href="#">Domestic Fares</a></p>
+                        </div>
+                        <div class="fat">
+                        <p class="kil"><a href="#">Travel Agents</a></p>
+                        <p class="til"><a href="#">GST</a></p>
+                        <p class="ril"><a href="#">Passenger Rights</a></p>
+                        </div>
+                        <div class="gate">
+                            <h5>FOLLOW US ON</h5>
+                        </div>
+                        <div class="pos">
+                           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                           <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                           <a href="#"><i class="fa-brands fa-facebook"></i></a>   
+                           <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div><hr>
+                        <div class="tight">
+                            <a href="#"><img src="tata.jpg" alt="pic" width="04%"></a>
+                        </div>
+                        <div class="area">
+                            <img src="ar.jpg" alt="pic" width="14%">
+                        </div>
+                        <div class="pair">
+                            <a href="#">A STAR ALLIANCE MEMBER<i class="fa-sharp fa-regular fastar"></i></a>
+                        </div><hr>
+                        <div class="fin">
+                            <p>Copyright #169 2024 Air india Ltd. All rights reserved.</p>
+                            <span> Use of this websites indicates your compliance with our Privacy Policy, Conditions of Carriage, Terms and Conditions. </span></div>
+                        </div>
+                        <script src="js/bootstrap.min.js"></script>
+                        <script src="js/bootstrap.bundle.min.js"></script>
+                        </body>
+                        </html>
+        
